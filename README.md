@@ -1,3 +1,21 @@
+
+## POS
+
+So the main purpose for this is to create a contract which is erc721 compactible but here is the catch this contract can batch hence i opted to use the erc721A which supports batch minting and also the project is intended to allow bridging from one network to another.
+
+### deploy
+
+```shell
+$ forge script script/<filename.extensio>:<ContractName in File> --rpc-url --broadcast 
+```
+
+### check balance
+```shell
+$   forge script script/<filename.extension>:<ContractName in file> --rpc-url --broadcast
+```
+
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**

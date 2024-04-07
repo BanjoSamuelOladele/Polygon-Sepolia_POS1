@@ -10,5 +10,7 @@ contract DeployNFT is Script {
     function run() public {
         vm.startBroadcast();
         MetaNFT metaNft = new MetaNFT();
+
+        console.log(address(metaNft));
     }
 }
